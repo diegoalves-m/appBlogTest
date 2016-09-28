@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "9679847617",
+    "firebase_url": "https://blogapp-ac270.firebaseio.com",
+    "project_id": "blogapp-ac270",
+    "storage_bucket": "blogapp-ac270.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:9679847617:android:068dc575de4c0bc1",
+        "android_client_info": {
+          "package_name": "com.mdeveloper.diegoalves.blogapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "9679847617-0ohrh6v6luao0l9k6com3i6j8lckuvl5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1X3jRcRIoXj70DxSY0SoD2v4jnTN2fsw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
