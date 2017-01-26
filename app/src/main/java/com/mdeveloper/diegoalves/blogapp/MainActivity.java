@@ -66,8 +66,11 @@ public class MainActivity extends AppCompatActivity {
         mDatabaseUsers = FirebaseDatabase.getInstance().getReference().child("Users");
         mDatabaseLike = FirebaseDatabase.getInstance().getReference().child("Likes");
 
-        String currentUserId = mAuth.getCurrentUser().getUid();
-        mCurrentUser = FirebaseDatabase.getInstance().getReference().child("Blog");
+        String currentUserId = "x";
+        if(mAuth.getCurrentUser() != null) {
+            currentUserId = mAuth.getCurrentUser().getUid();
+            mCurrentUser = FirebaseDatabase.getInstance().getReference().child("Blog");
+        }
 
         // trocar no recycler view para vir apenas post do usuario
         mQueryCurrentUser = mCurrentUser.orderByChild("uid").equalTo(currentUserId);
